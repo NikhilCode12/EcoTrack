@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+.top{
+    background: #1d2026;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    color: white;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    padding: 30px 8%;
+    position: sticky;
+}
+
+nav .logo-png{
+    height: 32px;
+    width: 159px;
+    cursor: pointer;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(224, 221, 221);
+    cursor: pointer;
+}
+
+button{
+    background-color: white;
+    color: #1d2026;
+    height: 30px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    width: 60px;
+    cursor: pointer;
+    margin-left: 30px;
+    transition: background 0.5s, margin-left 0.5s;
+}
+
+button span{
+    display: block;
+    background: #999;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 2px;
+    transition: background 0.5s, margin-left 0.5s;
+}
+
+.text-container{
+    max-width: 600px;
+    margin-top: 6%;
+    margin-left: 50%;
+}
+
+.text-container h1{
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text-container span{
+    color: #9ef431;
+}
+
+.text-container a{
+    background: white;
+    text-decoration: none;
+    padding: 14px 40px;
+    display: inline-block;
+    color: black;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+.text-container a:hover{
+    background: #9ef431;
+    color: #1d2026;
+}
+
+.illustration{
+    width: 425px;
+    position: absolute;
+    left: 8%;
+    top: 25%;
+    border-radius: 60px;
+}
+
+.download{
+    background: #9ef431;
+}
+
+.download span{
+    background-color: #1d2026;
+    margin-left: 31px;
+}
